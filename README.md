@@ -1,30 +1,30 @@
-# React + TypeScript + Vite
+# React Utilities Repository
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This repository is dedicated to the creation and development of utility functions and components for React applications. The primary goal is to build a comprehensive set of tools that enhance the development experience and provide reusable solutions for common functionality in React projects.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Current Contents
 
-## Expanding the ESLint configuration
+As of now, the repository includes the following utilities:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **`useApi` Hook**: A custom React hook for fetching data from APIs with support for lifecycle management and error handling.
+- **`useClickOutside` Hook**: This hook allows you to detect and handle clicks outside a specified element, useful for implementing behaviors like closing a modal or dropdown when the user clicks outside of it.
+- **`ClickOutsideContainer` Component**: A React component that encapsulates the functionality to detect clicks outside of its children, making it easier to control visibility or interaction states.
 
-- Configure the top-level `parserOptions` property like this:
+## Future Plans
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Moving forward, the intention is to expand this repository into a full-fledged library of React utilities. Additional tools and components will be developed and added, such as:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Enhanced state management hooks.
+- More complex fetching utilities capable of handling multiple concurrent requests.
+- Utilities for form handling and validation.
+- Animation and transition components to improve user interface dynamics.
+
+Each utility will be thoroughly documented with examples and usage guidelines to help integrate them into various projects seamlessly.
+
+## Contributing
+
+Contributions to this repository are welcome. Whether it's adding new utilities, improving existing ones, or fixing bugs, feel free to fork this repository and submit your pull requests. Each contribution helps make this resource more valuable for the entire React community.
+
+Stay tuned for more updates as we build out this robust collection of React tools!

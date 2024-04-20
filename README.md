@@ -25,6 +25,6 @@ Each utility will be thoroughly documented with examples and usage guidelines to
 
 ## Contributing
 
-Contributions to this repository are welcome. Whether it's adding new utilities, improving existing ones, or fixing bugs, feel free to fork this repository and submit your pull requests. Each contribution helps make this resource more valuable for the entire React community.
+Contributions to this repository are welcome. Whether it's adding new utilities, improving existing ones, or fixing bugs, feel free to fork this repository and submit your pull requests.
 
-Stay tuned for more updates as we build out this robust collection of React tools!
+Stay tuned for more updates
